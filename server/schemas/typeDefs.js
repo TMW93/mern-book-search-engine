@@ -1,4 +1,4 @@
-const typeDefs =
+const typeDefs = `
   type User {
     _id: ID
     username: String
@@ -31,7 +31,7 @@ const typeDefs =
     saveBook(authors: [String]!, description: String!, title: String!, bookId: String!, image: String!, link: String!): User
     removeBook(bookId: String!): User
   }
-;
+`;
 
 module.exports = typeDefs;
 
