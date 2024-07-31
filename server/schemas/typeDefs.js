@@ -3,8 +3,8 @@ const typeDefs = `
     _id: ID
     username: String
     email: String
-    bookCount: Integer
-    savedBooks: [String]!
+    bookCount: Int
+    savedBooks: [Book]!
   }
 
   type Book {
